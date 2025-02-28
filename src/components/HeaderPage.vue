@@ -4,7 +4,6 @@
       <div class="logo-container">
         <div class="logo"></div>
         <div class="logo-text">祺合珠宝</div>
-
         <ul class="nav-links">
           <li><router-link to="/">首页</router-link></li>
           <li><router-link to="/collections">系列</router-link></li>
