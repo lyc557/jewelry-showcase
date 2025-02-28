@@ -24,6 +24,22 @@ body {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/hero-bg.jpg');
 }
 
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  background-image: url('../images/logo.png');
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+.logo-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
 .jewelry-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
